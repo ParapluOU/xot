@@ -75,6 +75,7 @@ mod parse;
 #[cfg(feature = "proptest")]
 pub mod proptest;
 mod serialize;
+pub mod storage;
 
 mod unpretty;
 mod valueaccess;
